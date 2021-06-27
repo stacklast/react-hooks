@@ -13,7 +13,7 @@ export const Padre = () => {
         (num) => {
             setValor( valor + num )
         },
-        [setValor],
+        [ setValor ],
     )
 
     return (
